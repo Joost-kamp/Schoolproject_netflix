@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keuzestress</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Netflix</div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/keuzestress">Keuzestress</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="keuzestress">
+            <h1>Keuzestress</h1>
+            <p>{{ message }}</p>
+            <form method="POST">
+                <button type="submit" name="choice" value="serie">Serie</button>
+                <button type="submit" name="choice" value="film">Film</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Netflix Clone. All rights reserved.</p>
+    </footer>
+</body>
+</html>

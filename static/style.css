@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #000;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e50914;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #e50914;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(20, 20, 20, 1)), url('/static/img/background.jpg') center/cover no-repeat;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.hero button:hover {
+    background-color: #f40612;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    font-size: 14px;
+}
+.keuzestress {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #141414;
+    color: #fff;
+}
+
+.keuzestress button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.keuzestress button:hover {
+    background-color: #f40612;
+}
+.recommendation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendation li {
+    margin: 10px 0;
+    font-size: 18px;
+}

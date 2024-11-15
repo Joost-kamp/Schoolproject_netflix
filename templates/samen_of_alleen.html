@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samen of Alleen</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Netflix</div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="keuzestress">
+            <h1>Samen of Alleen</h1>
+            <p>{{ message }}</p>
+            <form method="POST">
+                <button type="submit" name="viewing_choice" value="alleen">Alleen</button>
+                <button type="submit" name="viewing_choice" value="samen">Samen</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Netflix Clone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
